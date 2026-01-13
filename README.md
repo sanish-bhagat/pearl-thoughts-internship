@@ -70,18 +70,20 @@ Total Classes: 0
 Call Relationships (Who calls what):
   add calls nothing
   add_3 calls: add
-  mul calls: add
+  mul calls nothing
 
 Risk Assessment (based on incoming dependencies):
-  add: Risk 2 (called by 2 functions)
+  add: Risk 1 (called by 1 functions)
   add_3: Risk 0 (called by 0 functions)
   mul: Risk 0 (called by 0 functions)
 
 Most Risky Function: add
 Description: Adds Two Numbers
-Callers at risk if changed: add_3, mul
-  add_3 description:
-  mul description:
+Callers at risk if changed: add_3
+
+*add_3 description: Add 3 nnumbers, calls add() to get the sum of two no.
+and then simply add third no. to the result
+too get the final result
 ```
 
 ## How It Works
