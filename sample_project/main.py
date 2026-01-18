@@ -8,7 +8,6 @@ from logger import setup_logger
 
 logger = setup_logger(__name__)
 
-
 def main():
     """Main function to run the calculator."""
     logger.info("Starting calculator application")
