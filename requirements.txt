@@ -1,0 +1,23 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langgraph>=0.0.20
+langchain-openai>=0.1.0
+
+# Vector store - FAISS
+faiss-cpu>=1.7.4
+
+# Alternative vector store - Chroma (optional, uncomment if preferred)
+# chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Data processing
+numpy>=1.24.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
